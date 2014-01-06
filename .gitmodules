@@ -1,0 +1,3 @@
+[submodule "two-server"]
+	path = two-server
+	url = https://github.com/ufo22940268/two-server.git

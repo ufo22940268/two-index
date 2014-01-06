@@ -1,0 +1,6 @@
+
+* TODO 替换界面上的一些英文字符
+* TODO 更换图片为我们即将要推出的语言相应的图片
+* TODO 做好超链接，把python学习的那一块链接到python的服务器上。
+* TODO 加入learnjs的iframe
+* TODO 做好介绍我们的页面

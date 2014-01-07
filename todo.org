@@ -1,6 +1,37 @@
 
-* TODO 替换界面上的一些英文字符
-* TODO 更换图片为我们即将要推出的语言相应的图片
-* TODO 做好超链接，把python学习的那一块链接到python的服务器上。
-* TODO 加入learnjs的iframe
-* TODO 做好介绍我们的页面
+* DONE 替换界面上的一些英文字符
+* DONE 更换图片为我们即将要推出的语言相应的图片
+* DONE 做好超链接，把python学习的那一块链接到python的服务器上。
+* DONE 加入learnjs的iframe
+* DONE 做好介绍我们的页面
+* DONE 修改javascript console的样式
+#+BEGIN_QUOTE
+Lee (-3)  20:49:41
+嗯，最好是一点就让我知道接下去要怎么操作
+Lee (-3)  20:49:45
+一眼
+○×□△  20:50:03
+嗯
+○×□△  20:50:11
+比如说
+○×□△  20:50:18
+这里不知道点哪里才能输入
+○×□△  20:50:24
+也不知道要干嘛
+○×□△  20:50:39
+加一个光标就会好很多
+Lee (-3)  20:50:40
+对，然后我要不断的读提示
+#+END_QUOTE
+- [X] console加边框
+- [X] 加入blink cursor
+* TODO 更改色调, 超级喜欢[[http://fontawesome.io/][fontawesome]] 的界面，模仿这货做好了
+* TODO 做好ruby的那一块，ruby的模块和python放在一起好了
+* TODO 添加几道python的题目
+* TODO 把python中go的题目给删掉
+* TODO 解决projectile不会把submodule包含在project里面，感觉是ignore project那个地方出错了。
+* TODO 不知道为什么在修改了之后，每一次javascript的output都会自动加一个indent，参考[[http://127.0.0.1/two-server/][原来的console]] 
+
+* 界面风格值得参考的站点
+  - [[http://www.motorola.com/us/motorola-shop-all/motorola-shop-all.html][moto]]
+  - [[http://fontawesome.io/][fontawesome]]

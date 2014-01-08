@@ -32,6 +32,10 @@ Lee (-3)  20:50:40
 * TODO 解决projectile不会把submodule包含在project里面，感觉是ignore project那个地方出错了。
 * TODO 不知道为什么在修改了之后，每一次javascript的output都会自动加一个indent，参考[[http://127.0.0.1/two-server/][原来的console]] 
 
+
 * 界面风格值得参考的站点
   - [[http://www.motorola.com/us/motorola-shop-all/motorola-shop-all.html][moto]]
   - [[http://fontawesome.io/][fontawesome]]
+
+* 内容值得抄袭的网站
+  - [[http://www.w3cschool.cc/][伪w3school]]

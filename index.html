@@ -32,10 +32,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#Javascript">Javascript</a></li>
-            <li><a href="#Python">Python</a></li>
-            <li><a href="#Ruby">Ruby</a></li>
-            <li><a href="#Go">Go</a></li>
+            <li class="active"><a href="#Javascript" class="nav-item">Javascript</a></li>
+            <li><a href="#Python" class="nav-item">Python</a></li>
+            <li><a href="#Ruby" class="nav-item">Ruby</a></li>
+            <li><a href="#Go" class="nav-item">Go</a></li>
           </ul>
           <ul class="nav navbar-nav pull-right">
             <li><a href="about.html">关于我们</a></li>
@@ -43,7 +43,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
-    
+
     <div id="Javascript">
     </div>
     <div class="header-image">
@@ -73,10 +73,10 @@
 
       <div class="featurette">
         <img class="featurette-image img-circle img-responsive pull-right" src="img/python_item.png">
-        <h2 class="featurette-heading">Python 无所不能的语言</h2>
+        <h2 class="featurette-heading python-color">Python 无所不能的语言</h2>
         <p class="lead">这货可以用来做科学运算，做网站，开发游戏，代替shell做脚本，甚至还有人用它来做PPT</p>
         <p>
-          <a href="http://192.241.196.189:3999/#1" type="button" class="btn btn-primary btn-lg">开始学习</a>
+          <a href="http://192.241.196.189:10020/python" type="button" class="btn btn-primary btn-lg">开始学习</a>
         </p>
       </div>
 
@@ -86,10 +86,13 @@
 
       <div class="featurette">
         <img class="featurette-image img-circle img-responsive pull-left" src="img/ruby_item.png">
-        <h2 class="featurette-heading">Ruby</h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading ruby-color">Ruby 是...</h2>
+        <p class="lead">一种跨平台、面向对象的动态类型编程语言。Ruby 体现了表达的一致性和简单性， 它不仅是一门编程语言，更是表达想法的一种简练方式。</p>
+        <p>
+          <a href="http://192.241.196.189:10020/ruby" type="button" class="btn btn-primary btn-lg ruby-button">开始学习</a>
+        </p>
       </div>
-      
+
       <div id="Go">
       </div>
       <hr class="featurette-divider">
@@ -115,6 +118,7 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 
   </body>
 

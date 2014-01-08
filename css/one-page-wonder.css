@@ -125,3 +125,16 @@ footer {
     .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
 
 }
+
+.ruby-button {
+    background: #CC342D;
+    border-color: #9b1c16;
+}
+
+.ruby-color {
+    color: #CC342D;
+}
+
+.python-color {
+    color: #428bca;
+}

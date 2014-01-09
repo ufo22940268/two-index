@@ -131,10 +131,22 @@ footer {
     border-color: #9b1c16;
 }
 
+.java-button {
+    background: #f16702;
+}
+
 .ruby-color {
     color: #CC342D;
 }
 
+.c-color {
+    color: #5cb85c;
+}
+
 .python-color {
     color: #428bca;
+}
+
+.java-color {
+    color: #f16702;
 }

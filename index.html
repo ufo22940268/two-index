@@ -32,7 +32,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#Javascript" class="nav-item">Javascript</a></li>
+            <li><a href="#Java" class="nav-item">Java</a></li>
+            <li><a href="#C" class="nav-item">C</a></li>
             <li><a href="#Python" class="nav-item">Python</a></li>
             <li><a href="#Ruby" class="nav-item">Ruby</a></li>
           </ul>
@@ -52,10 +53,10 @@
           <div class="row">
             <div class="col-lg-4" style="text-align: left">
               <h2 class="featurette-heading">用交互的方式学习编程</h2>
-              <p class="lead">做完这个教程之后就会懂一点javascript了，应该是这样的吧，对吧</p>
             </div>
             <div class="col-lg-7 pull-right">
-              <iframe src="two-server/index.html" width="700px" height="430px" frameBorder="0"></iframe>
+              <!-- TODO 删掉之后，这个网站就不提供学习javascript的功能了，然后原来那个banner用来简单地介绍下这个网站，最好是能够嵌入一个视频 -->
+              <!-- <iframe src="two-server/index.html" width="700px" height="430px" frameBorder="0"></iframe> -->
             </div>
           </div>
         </div>
@@ -65,9 +66,39 @@
 
     <div class="container">
 
-      <!-- START THE FEATURETTES -->
-      <div id="Python">
+      <div id="Java">
       </div>
+      
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image img-circle img-responsive pull-right" src="img/java_item.png">
+        <h2 class="featurette-heading java-color">java语言</h2>
+        <p class="lead">一种计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p>
+        <p>
+          <a href="http://192.241.196.189:10020/python" type="button" class="btn btn-primary btn-lg java-button">开始学习</a>
+        </p>
+      </div>
+
+      <div id="C">
+      </div>
+      
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image img-circle img-responsive pull-left" src="img/c_item.png">
+        <h2 class="featurette-heading c-color">c语言</h2>
+        <p class="lead">一种通用的、过程式的编程语言，广泛用于系统与应用软件的开发。具有高效、灵活、功能丰富、表达力强和较高的可移植性等特点，在程序员中备受青睐。最近25年是使用最为广泛的编程语言。</p>
+        <p>
+          <a href="http://192.241.196.189:10020/ruby" type="button" class="btn btn-success btn-lg">开始学习</a>
+        </p>
+      </div>
+
+v      <div id="Python">
+      </div>
+
+
       <hr class="featurette-divider">
 
       <div class="featurette">
@@ -78,9 +109,10 @@
           <a href="http://192.241.196.189:10020/python" type="button" class="btn btn-primary btn-lg">开始学习</a>
         </p>
       </div>
-
+      
       <div id="Ruby">
       </div>
+
       <hr class="featurette-divider">
 
       <div class="featurette">

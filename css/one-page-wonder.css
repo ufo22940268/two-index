@@ -3,7 +3,11 @@ body {
 }
 
 .header-image {
-    background: #cccccc;
+    /* background-image: url("/img/background.png"); */
+     color: #cdbfe3;
+     background-color: #563d7c;
+}
+
     background-position: top;
     height: auto;
     display: block;
@@ -53,7 +57,7 @@ footer {
 
 /* RESPONSIVE CSS */
 
-@media (max-width: 1200px) {
+@media (max-width:x 1200px) {
 
     .headline > .container > h1 {font-size: 140px;}
     .headline > .container > h2 {font-size: 63px;}
@@ -149,4 +153,25 @@ footer {
 
 .java-color {
     color: #f16702;
+}
+
+.navbar {
+    background-color: #563d7c;
+    border-color:#463265;
+    border-width:0 0 1px;
+    color: white;
+}
+
+.navbar-inverse .nav > li > a {
+    color: #cdbfe3;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #463265;
+}
+
+.featurette-nav-heading {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

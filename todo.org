@@ -39,6 +39,8 @@
    SCHEDULED: <2014-01-09 Thu>
 
 * TODO 完成banner的功能，使用视频放上去
+* TODO 把[[https://github.com/IanLunn/Hover][hover]] 整合到我的界面上去。
+  SCHEDULED: <2014-01-12 Sun>
 
 * 拖延
 ** TODO 更改色调, 超级喜欢[[http://fontawesome.io/][fontawesome]] 的界面，模仿这货做好了
